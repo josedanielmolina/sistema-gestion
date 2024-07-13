@@ -1,0 +1,15 @@
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\bin\Debug\net8.0\HttpCall.deps.json
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\bin\Debug\net8.0\HttpCall.dll
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\bin\Debug\net8.0\HttpCall.pdb
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\bin\Debug\net8.0\DTO.dll
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\bin\Debug\net8.0\DTO.pdb
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\HttpCall.csproj.AssemblyReference.cache
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\HttpCall.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\HttpCall.AssemblyInfoInputs.cache
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\HttpCall.AssemblyInfo.cs
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\HttpCall.csproj.CoreCompileInputs.cache
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\HttpCall.csproj.Up2Date
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\HttpCall.dll
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\refint\HttpCall.dll
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\HttpCall.pdb
+C:\Users\Jose Daniel Molina\Desktop\SistemaGestion\HttpCall\obj\Debug\net8.0\ref\HttpCall.dll

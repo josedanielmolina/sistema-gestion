@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22D6166A-6A88-4541-B47D-7BC1A8B59CAE}|HttpCall\\HttpCall.csproj|c:\\users\\jose daniel molina\\desktop\\sistemagestion\\httpcall\\apiauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D6166A-6A88-4541-B47D-7BC1A8B59CAE}|HttpCall\\HttpCall.csproj|solutionrelative:httpcall\\apiauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F8FDCE-01BF-4423-97C4-2B3DDF53E1F2}|ApiPeticiones\\ApiPeticiones.csproj|c:\\users\\jose daniel molina\\desktop\\sistemagestion\\apipeticiones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F8FDCE-01BF-4423-97C4-2B3DDF53E1F2}|ApiPeticiones\\ApiPeticiones.csproj|solutionrelative:apipeticiones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862F4434-D4D4-43F9-A3E9-7898DECF97C3}|ApiAuth\\ApiAuth.csproj|c:\\users\\jose daniel molina\\desktop\\sistemagestion\\apiauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862F4434-D4D4-43F9-A3E9-7898DECF97C3}|ApiAuth\\ApiAuth.csproj|solutionrelative:apiauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F8FDCE-01BF-4423-97C4-2B3DDF53E1F2}|ApiPeticiones\\ApiPeticiones.csproj|c:\\users\\jose daniel molina\\desktop\\sistemagestion\\apipeticiones\\apipeticiones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8F8FDCE-01BF-4423-97C4-2B3DDF53E1F2}|ApiPeticiones\\ApiPeticiones.csproj|solutionrelative:apipeticiones\\apipeticiones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\HttpCall\\ApiAuthService.cs",
+              "RelativeDocumentMoniker": "HttpCall\\ApiAuthService.cs",
+              "ToolTip": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\HttpCall\\ApiAuthService.cs",
+              "RelativeToolTip": "HttpCall\\ApiAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T16:26:33.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiPeticiones",
+              "DocumentMoniker": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\ApiPeticiones\\ApiPeticiones.csproj",
+              "RelativeDocumentMoniker": "ApiPeticiones\\ApiPeticiones.csproj",
+              "ToolTip": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\ApiPeticiones\\ApiPeticiones.csproj",
+              "RelativeToolTip": "ApiPeticiones\\ApiPeticiones.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-13T16:24:48.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\ApiPeticiones\\Program.cs",
+              "RelativeDocumentMoniker": "ApiPeticiones\\Program.cs",
+              "ToolTip": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\ApiPeticiones\\Program.cs",
+              "RelativeToolTip": "ApiPeticiones\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T16:24:52.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\ApiAuth\\Program.cs",
+              "RelativeDocumentMoniker": "ApiAuth\\Program.cs",
+              "ToolTip": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\ApiAuth\\Program.cs",
+              "RelativeToolTip": "ApiAuth\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T16:24:49.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
