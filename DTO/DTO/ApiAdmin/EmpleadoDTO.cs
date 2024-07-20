@@ -15,5 +15,7 @@ namespace DTO.DTO.ApiAdmin
         public string Correo { get; set; }
 
         public string Cargo { get; set; }
+
+        public string CodigoRh { get; set; }
     }
 }

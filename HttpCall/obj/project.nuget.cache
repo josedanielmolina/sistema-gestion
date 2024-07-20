@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CH1VXrhqqvo=",
+  "dgSpecHash": "f7wePok60I4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jose Daniel Molina\\Desktop\\SistemaGestion\\HttpCall\\HttpCall.csproj",
+  "projectFilePath": "C:\\Users\\Jose Daniel Molina\\Desktop\\Proyectos Bootcamp\\SistemaGestion\\HttpCall\\HttpCall.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jose Daniel Molina\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

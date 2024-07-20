@@ -1,11 +1,6 @@
-﻿using AutoMapper;
+﻿using ApiAdmin.Features.Empleados;
 using DTO.DTO.ApiAdmin;
-using DTO.Event;
-using HttpCall;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Repository.Base;
-using Repository.Models;
 
 namespace ApiAdmin.Controllers
 {
@@ -13,39 +8,22 @@ namespace ApiAdmin.Controllers
     [ApiController]
     public class DomainController : ControllerBase
     {
-        private readonly IUnitOfWork _unitOfWork;
-        private readonly IMapper _mapper;
-        private readonly IApiAuthService _apiAuthService;
+        private readonly CreateEmpleadoUseCase _createEmpleadoUseCase;
 
         public DomainController(
-            IUnitOfWork unitOfWork, 
-            IMapper mapper,
-            IApiAuthService apiAuthService
+            CreateEmpleadoUseCase createEmpleadoUseCase
             )
         {
-            _unitOfWork = unitOfWork;
-            _mapper = mapper;
-            _apiAuthService = apiAuthService;
+            _createEmpleadoUseCase = createEmpleadoUseCase;
         }
 
-        [HttpPost("CreateEmpleado")]
-        public async Task<IActionResult> CreateEmpleado(EmpleadoDTO empleado)
+        [HttpPost("CreateEmpleadoUseCase")]
+        public async Task<IActionResult> CreateEmpleadoUseCase(List<EmpleadoDTO> empleados)
         {
-            // Crear nuevo empleado
-            var entity = _mapper.Map<ApiAdminEmpleado>(empleado);
-            entity.CodigoRh = Guid.NewGuid().ToString();    
-
-            _unitOfWork.ApiAdmin_EmpleadoRepository.Add(entity);
-            await _unitOfWork.SaveChangesAsync();
-
-            // Notificar ApiAuth nuevo empleado
-            var eventDarAltaEmpleado = new RequestActivarEmpleado()
+            foreach (var item in empleados)
             {
-                Correo = empleado.Correo,
-                Cargo = empleado.Cargo,
-                CodigoRH = entity.CodigoRh
-            };
-            await _apiAuthService.DarAltaUsuario(eventDarAltaEmpleado);
+                await _createEmpleadoUseCase.Execute(item);
+            }
 
             return Ok();
         }
